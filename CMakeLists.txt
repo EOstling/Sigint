@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(untitled SHARED library.cpp library.h)
+add_library(untitled SHARED library.cpp library.h User/User.cpp User/User.h FilterBank.h)

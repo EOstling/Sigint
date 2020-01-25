@@ -124,6 +124,33 @@ untitled\fast:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\build
 .PHONY : untitled\fast
 
+User\User.obj: User\User.cpp.obj
+
+.PHONY : User\User.obj
+
+# target to build an object file
+User\User.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\User\User.cpp.obj
+.PHONY : User\User.cpp.obj
+
+User\User.i: User\User.cpp.i
+
+.PHONY : User\User.i
+
+# target to preprocess a source file
+User\User.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\User\User.cpp.i
+.PHONY : User\User.cpp.i
+
+User\User.s: User\User.cpp.s
+
+.PHONY : User\User.s
+
+# target to generate assembly for a file
+User\User.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\User\User.cpp.s
+.PHONY : User\User.cpp.s
+
 library.obj: library.cpp.obj
 
 .PHONY : library.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... edit_cache
 	@echo ... untitled
 	@echo ... rebuild_cache
+	@echo ... User/User.obj
+	@echo ... User/User.i
+	@echo ... User/User.s
 	@echo ... library.obj
 	@echo ... library.i
 	@echo ... library.s
