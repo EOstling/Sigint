@@ -12,12 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff893226-a3de-4ee3-b887-3a433c6278a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FilterBanks.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FilterBanks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/MergeSort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/MergeSort.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilterBank.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilterBank.h" beforeDir="false" afterPath="$PROJECT_DIR$/FilterBank.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" afterDir="false" />
@@ -78,7 +76,7 @@
       <updated>1579910388712</updated>
       <workItem from="1579910392755" duration="638000" />
       <workItem from="1579911620127" duration="232000" />
-      <workItem from="1579911854173" duration="3745000" />
+      <workItem from="1579911854173" duration="4150000" />
     </task>
     <servers />
   </component>

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Lispy/CLionProjects/Signal/FilterBanks.cpp" "C:/Users/Lispy/CLionProjects/Signal/cmake-build-debug/CMakeFiles/untitled.dir/FilterBanks.cpp.obj"
+  "C:/Users/Lispy/CLionProjects/Signal/Sort/MergeSort.cpp" "C:/Users/Lispy/CLionProjects/Signal/cmake-build-debug/CMakeFiles/untitled.dir/Sort/MergeSort.cpp.obj"
   "C:/Users/Lispy/CLionProjects/Signal/User/User.cpp" "C:/Users/Lispy/CLionProjects/Signal/cmake-build-debug/CMakeFiles/untitled.dir/User/User.cpp.obj"
   "C:/Users/Lispy/CLionProjects/Signal/library.cpp" "C:/Users/Lispy/CLionProjects/Signal/cmake-build-debug/CMakeFiles/untitled.dir/library.cpp.obj"
   )

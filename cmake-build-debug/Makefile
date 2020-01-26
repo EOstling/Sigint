@@ -151,6 +151,33 @@ FilterBanks.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\FilterBanks.cpp.s
 .PHONY : FilterBanks.cpp.s
 
+Sort\MergeSort.obj: Sort\MergeSort.cpp.obj
+
+.PHONY : Sort\MergeSort.obj
+
+# target to build an object file
+Sort\MergeSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Sort\MergeSort.cpp.obj
+.PHONY : Sort\MergeSort.cpp.obj
+
+Sort\MergeSort.i: Sort\MergeSort.cpp.i
+
+.PHONY : Sort\MergeSort.i
+
+# target to preprocess a source file
+Sort\MergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Sort\MergeSort.cpp.i
+.PHONY : Sort\MergeSort.cpp.i
+
+Sort\MergeSort.s: Sort\MergeSort.cpp.s
+
+.PHONY : Sort\MergeSort.s
+
+# target to generate assembly for a file
+Sort\MergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\Sort\MergeSort.cpp.s
+.PHONY : Sort\MergeSort.cpp.s
+
 User\User.obj: User\User.cpp.obj
 
 .PHONY : User\User.obj
@@ -217,6 +244,9 @@ help:
 	@echo ... FilterBanks.obj
 	@echo ... FilterBanks.i
 	@echo ... FilterBanks.s
+	@echo ... Sort/MergeSort.obj
+	@echo ... Sort/MergeSort.i
+	@echo ... Sort/MergeSort.s
 	@echo ... User/User.obj
 	@echo ... User/User.i
 	@echo ... User/User.s

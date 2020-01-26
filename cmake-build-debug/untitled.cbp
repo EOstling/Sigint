@@ -84,13 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Lispy/CLionProjects/Signal/FilterBank.h">
-			<Option target="untitled"/>
-		</Unit>
 		<Unit filename="C:/Users/Lispy/CLionProjects/Signal/FilterBanks.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/Lispy/CLionProjects/Signal/FilterBanks.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/Lispy/CLionProjects/Signal/Sort/MergeSort.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/Lispy/CLionProjects/Signal/Sort/MergeSort.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/Lispy/CLionProjects/Signal/User/User.cpp">
