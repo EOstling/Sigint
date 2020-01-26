@@ -124,6 +124,33 @@ untitled\fast:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\build
 .PHONY : untitled\fast
 
+FilterBanks.obj: FilterBanks.cpp.obj
+
+.PHONY : FilterBanks.obj
+
+# target to build an object file
+FilterBanks.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\FilterBanks.cpp.obj
+.PHONY : FilterBanks.cpp.obj
+
+FilterBanks.i: FilterBanks.cpp.i
+
+.PHONY : FilterBanks.i
+
+# target to preprocess a source file
+FilterBanks.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\FilterBanks.cpp.i
+.PHONY : FilterBanks.cpp.i
+
+FilterBanks.s: FilterBanks.cpp.s
+
+.PHONY : FilterBanks.s
+
+# target to generate assembly for a file
+FilterBanks.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\untitled.dir\FilterBanks.cpp.s
+.PHONY : FilterBanks.cpp.s
+
 User\User.obj: User\User.cpp.obj
 
 .PHONY : User\User.obj
@@ -187,6 +214,9 @@ help:
 	@echo ... edit_cache
 	@echo ... untitled
 	@echo ... rebuild_cache
+	@echo ... FilterBanks.obj
+	@echo ... FilterBanks.i
+	@echo ... FilterBanks.s
 	@echo ... User/User.obj
 	@echo ... User/User.i
 	@echo ... User/User.s
