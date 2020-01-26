@@ -1,7 +1,3 @@
-//
-// Created by Lispy on 1/26/2020.
-//
-
 #ifndef UNTITLED_MERGESORT_H
 #define UNTITLED_MERGESORT_H
 
@@ -14,4 +10,4 @@ public:
 };
 
 
-#endif //UNTITLED_MERGESORT_H
+#endif

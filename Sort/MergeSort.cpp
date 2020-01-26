@@ -1,9 +1,4 @@
-//
-// Created by Lispy on 1/26/2020.
-//
-
 #include "MergeSort.h"
-
 
 void MergeSort::sort(int *array, int head, int tail) {
 
@@ -41,4 +36,9 @@ void MergeSort::sort(int *array, int head, int tail) {
         sort(array, start + 1, head);
 
     }
+}
+
+
+void MergeSort::MergeS(int **arr, int size, int head, int tail) {
+
 }
