@@ -43,5 +43,33 @@ void MergeSort::sort(int *array, int head, int tail) {
 
 
 void MergeSort::MergeS(int **arr, int size, int head, int tail) {
+    int lo = tail;
+    int hi = head;
+    if (lo >= hi) {
+        return;
+    }
+    int mid = (lo + hi) / 2;
+
+    sort(*arr, lo, mid);
+    sort(*arr, mid + 1, hi);
+
+    int end_lo = mid;
+    int start_hi = mid + 1;
+    while ((lo <= end_lo) && (start_hi <= hi)) {
+        if (arr[lo] < arr[start_hi]) {
+            lo++;
+        }
+        else {
+
+            int T = (int)arr[start_hi];
+            for (int k = start_hi - 1; k >= lo; k--) {
+                arr[k + 1] = arr[k];
+            }
+            arr[lo] = &T;
+            lo++;
+            end_lo++;
+            start_hi++;
+        }
+    }
 
 }
