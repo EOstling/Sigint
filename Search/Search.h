@@ -8,9 +8,13 @@
 
 class Search {
 
+private:
+    bool isValid(int row, int col);
+    bool isDestination(int row, int col, Pair dest);
+
 public:
     void ReadFile(*file);
-    vector<int> search(&array,int initial_pt, int end_pt);
+    void search(&array,int initial_pt, int end_pt);
     void Cellsort();
     void getNextNeighbor();
     void expandNeighbors();
