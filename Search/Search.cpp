@@ -24,3 +24,8 @@ bool Search::isValid(int row, int col) {
            (col >= 0) && (col < COL);
 }
 
+bool Search::isDestination(int row, int col, Pair dest) {
+
+    //
+}
+
