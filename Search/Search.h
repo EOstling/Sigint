@@ -15,7 +15,7 @@ private:
 public:
     void ReadFile(*file);
     void search(&array,int initial_pt, int end_pt);
-    void Cellsort();
+    void Cellsort(&grid);
     void getNextNeighbor();
     void expandNeighbors();
 

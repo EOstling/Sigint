@@ -29,3 +29,9 @@ bool Search::isDestination(int row, int col, Pair dest) {
     //
 }
 
+void Search::Cellsort(&grid) {
+    for(int i: grid){
+        //
+    }
+}
+
