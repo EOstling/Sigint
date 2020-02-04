@@ -18,6 +18,12 @@ public:
     void Cellsort(&grid);
     void getNextNeighbor();
     void expandNeighbors();
+    vector<vector<State>> Search();
+    int Heuristic(int x1, int y1,
+            int x2, int y2);
+    bool Compare(const vector<int> a,
+            const vector<int> b);
+
 
 };
 

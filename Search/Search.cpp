@@ -50,7 +50,7 @@ vector<vector<State>> Search::search(vector<vector<State>>grid){
     return std::vector<vector<State>>{};
 }
 
-int Heuristic(int x1, int yi, int x2, int y2){
+int Heuristic(int x1, int y1, int x2, int y2){
     return abs(x2-x1) + abs(y2-y1);
 }
 
