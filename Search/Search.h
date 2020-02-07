@@ -23,8 +23,6 @@ public:
             int x2, int y2);
     bool Compare(const vector<int> a,
             const vector<int> b);
-
-
 };
 
 
