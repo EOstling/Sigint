@@ -9,6 +9,7 @@
 class Search {
 
 private:
+    vector<int> obstales;
     bool isValid(int row, int col);
     bool isDestination(int row, int col, Pair dest);
 
@@ -39,6 +40,8 @@ public:
             &vector<vector<State>grid>));
 
     void CellSort(vector<vector<int>>*grid);
+
+
 };
 
 
