@@ -31,18 +31,17 @@ public:
 
     void ExpandNeighbors(const vector<int> &current, int goal[2],
             vector<vector<int>>&open,
-            vector<vector<T>>&grid);
+            vector<vector<T>>grid,
 
     bool CheckValidCell(int x, int y, vector<vector<T>>&grid);
 
     void AddToOpen(int x, int y, int g, int h,
-            &vector<vector<int>>openNodes,
-            &vector<vector<State>grid>));
+            vector<vector<int>>openNodes,
+            vector<vector<State>>grid,
 
-    void CellSort(vector<vector<int>>*grid);
+    void CellSort(vector<vector<int>>*grid)
 
 
 };
-
 
 #endif //UNTITLED_SEARCH_H

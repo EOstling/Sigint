@@ -3,14 +3,10 @@
 //
 
 #include "Search.h"
-#include "vector"
-#include "bits/stdc++.h"
+#include <vector>
 #include <sstream>
 #include <fstream>
 #include <algorithm>
-
-#DEFINE ROW 10
-#DEFINE COL 10
 
 using namespace std;
 using std::istringstream;
@@ -22,7 +18,10 @@ enum class State {kempty, kObstacle, kOpen, kClosed, kPath, kStart,kFinish};
 
 const int delta[4][2]{{-1,0},{0,-1},{1,0},{0,1}};
 
-vector<vector<State>> Search::search(vector<vector<State>>grid){
+const int ROW = 10;
+const int COL = 10;
+
+vector<vector<State>> Search::Search(vector<vector<State>>grid){
 
         int x = init[0];
         int y = init[1];
